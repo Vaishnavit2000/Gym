@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body {
+  overflow-x: hidden;
+}
+body{
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ===Nav Bar css starts=== */
+
+.jumbotron-fluid{
+
+    background: url(../images/Gym\ Freak-bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+}
+#header .navbar{
+    background: rgba(0, 0, 0, 0.5);
+}
+#header .nav-link{
+    font-family: 'Salsa', cursive;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0!important;
+}
+#header .navbar-brand{
+    font-family: 'Nunito', sans-serif;
+    color: #AE0000;
+    font-size: 40px;
+    font-weight: 900;
+}
+#header .navbar-brand span{
+    color: #fff;
+    font-weight: 300!important;
+}
+#header .fa-bars{
+    color: #fff;
+}
+#header .head-text{
+    padding-top: 10%;
+    text-align: center;
+}
+#header .head-text h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+#header .head-text p{
+    padding-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#header .head-text button{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width : 1220px){
+    #header .nav-item{
+        margin-left: 0!important;
+        margin-right: 10px!important;
+    }
+}
+@media screen and (max-width : 600px){
+    #header .head-text{
+        padding-top: 15%;
+        font-size: 30px;
+    }
+}
+
+/* ===Nav Bar css ends=== */
+
+
+
+/* ===About us Section starts=== */
+
+#about-us .about1{
+    background-image: url(../images/About-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+#about-us .about2{
+    background-image: url(../images/About-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+#about-us .about3{
+    background-image: url(../images/About-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+#about-us .about-text{
+    text-align: center;
+    padding-top: 29%;
+}
+#about-us .about-text h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+#about-us .about-text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+#about-us .about-text button{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid red;
+}
+
+/* responsive */
+@media screen and (max-width : 1120px){
+    #about-us .abt-img{
+        height: 370px;
+    }
+}
+@media screen and (max-width : 770px){
+    #about-us .about-text{
+        text-align: center;
+        padding-top: 17%;
+    }
+}
+@media screen and (max-width : 460px){
+    #about-us .about-text{
+        text-align: center;
+        padding-top: 23%;
+    }
+}
+
+
+/* ===About us Section ends=== */
+
+
+/* ===Perfect Body Section Starts=== */
+
+#Perfect-body .container-fluid{
+    background-image: url(../images/Perfect-body.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+    text-align: center;
+}
+#Perfect-body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+}
+#Perfect-body p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#Perfect-body button{
+    background: #EB2020 80%;
+    color: #fff;
+}
+
+/* Responsive */
+@media screen and (max-width : 630px){
+    #Perfect-body img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 80px;
+        width: 80%;
+    }
+    #Perfect-body p{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/* ===Perfect Body Section ends=== */
+
+
+/* ===Our Coach Section starts=== */
+
+#Our-coach .container-fluid{
+    background-image: url(../images/Coach_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+}
+#Our-coach h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-transform:uppercase;
+}
+#Our-coach img{
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#Our-coach .sonnie-left img{
+    float: right;
+}
+#Our-coach .sonnie-left h2{
+    float: right;
+}
+#Our-coach .sonnie-left span{
+    float: right;
+    text-align: right;
+}
+#Our-coach .sonnie-right{
+    padding-left: 0!important;
+}
+#Our-coach h2{
+    font-family: 'Rajdhani', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 10px;
+}
+#Our-coach span{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 0;
+}
+#Our-coach h1{
+    color: #CB2320;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+/* @media screen and (min-width : 1180px){
+    #Our-coach .first{
+        padding-left: 20px!important;
+    }
+} */
+
+@media screen and (max-width : 770px){
+    #Our-coach .sonnie-left img{
+        float: left;
+    }
+    #Our-coach .sonnie-left h2{
+        float: left;
+    }
+    #Our-coach .sonnie-left span{
+        float: left;
+        text-align: right;
+    }
+    #Our-coach .row{
+        padding-top: 0!important;
+    } 
+    #Our-coach .coach{
+        padding-top: 20px!important;
+    }
+
+}
+
+/* ===Our Coach Section ends=== */
+
+/* ===Calculate BMI Section starts=== */
+
+#calculate-bmi .bmi{
+    text-align: center;
+}
+#calculate-bmi p{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+#calculate-bmi input{
+    width: 300px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    outline: none;
+    border: 1px solid #EB2020;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#calculate-bmi .grp{
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+#calculate-bmi .btn{
+    width: 300px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+}
+ #calculate-bmi .bmi-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive */
+@media screen and (max-width : 930px){
+    #calculate-bmi .bmi img{
+        width: 70%;
+    }
+    #calculate-bmi .bmi-img img{
+        width: 90%;
+        height: 80%;
+        text-align: center;
+    }
+}
+@media screen and (max-width : 400px){
+    #calculate-bmi .bmi-img img{
+        width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+    #calculate-bmi input{
+        height: 30px;
+        font-size: 15px;
+    }
+    #calculate-bmi .btn{
+        width: 300px;
+        font-size: 15px;
+        height: 30px;
+        padding-top: 5px;
+        border-radius: 10px;
+    }
+}
+/* ===Calculate BMI Section ends=== */
+
+
+/* ===Blog Section starts=== */
+
+#latest-blog .blog-post{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#latest-blog .card{
+    background: #282828;
+    color: #fff;
+    font-weight: 500;
+}
+#latest-blog .card-title{
+    font-size: 25px;
+}
+#latest-blog .card-text{
+    font-size: 15px;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 490px){
+    #latest-blog .blog-post{
+        padding-bottom: 15px;
+    }
+}
+
+
+/* ===Blog Section ends=== */
+
+/* ===Contact Us Section starts=== */
+
+#contact-us .container-fluid{
+    background-image: url(../images/contact-us.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+    color: #fff;
+}
+#contact-us .btn{
+    background-color: #C21E1E;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 0px;
+    text-align: center;
+}
+#contact-us .col-md-6{
+    text-align: center;
+}
+#contact-us .call-now{
+    text-align: center;
+}
+#contact-us h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+#contact-us .address{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1240px){
+    #contact-us .col-md-6 img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:770px){
+    #contact-us .col-md-6 img{
+        width: 90%;
+    }
+    #contact-us .call-now{
+        text-align: center;
+    }
+    #contact-us .btn{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 0px;
+    }
+    #contact-us h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #contact-us .address{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+/* ===Contact Us Section ends=== */
+
+/* ====Footer Starts=== */
+
+footer .navbar-brand{
+    font-family: 'Nunito', sans-serif;
+    color: #AE0000;
+    font-size: 40px;
+    font-weight: 900;
+}
+footer .navbar-brand span{
+    color: #fff;
+    font-weight: 300!important;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+footer .nav-link{
+    font-family: 'Salsa', cursive;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0!important;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 575px){
+    footer .cont{
+        text-align: center;
+    }
+
+}
+
+/* ====Footer ends=== */
